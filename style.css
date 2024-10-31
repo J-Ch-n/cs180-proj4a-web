@@ -7,6 +7,12 @@ p {
   color: #3E3E3E;
 }
 
+li {
+  font-family:'Georgia';
+  text-align: left;
+  text-emphasis-color: #3E3E3E;
+  color: #3E3E3E;
+}
 a {
   text-decoration: none;
 }
@@ -50,6 +56,13 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_i
   background-color: white;
 }
 
+.single_col {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  grid-template-rows: auto; 
+  gap: 15px 20px;
+  background-color: white;
+}
 .image_title {
   text-align: center;
 }
